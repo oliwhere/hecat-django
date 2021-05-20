@@ -1,0 +1,28 @@
+{% load static %}
+<html>
+  <head>
+    <link rel="stylesheet" href=".{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+  </head>
+
+  <body>
+
+
+    <div class="container">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src=".{% static 'image9.png' %}" alt="">
+        <h2>Input form</h2>
+        <p class="lead">Based on the filled data and the future assesments of the labour market the system will provide the recommendation of the most plausable scenarions</p>
+      </div>
+    <form action="eval_hecat_dex" method="post">
+        {% csrf_token %}
+        {% for field in form %}
+         <div class="form-group">
+           <label for="{{ field.id_for_label }}"> {{ field.label }} </label>
+          {{ field }}
+         </div>
+        {% endfor %}
+        <input type="submit" value="Submit" class='form-control'>
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+{% load static %}
+<html>
+  <head>
+    <link rel="stylesheet" href=".{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+    var currentIndex=[];
+    $(document).ready(function(){
+      $("button[name*='dex_detail']" ).click( function(){
+        var plotName = '#plot_' + this.id;
+        currentIndex.push(this.id);
+        var arrStr = encodeURIComponent(JSON.stringify(currentIndex));
+        $.get( "index_plotly?index=" + arrStr, function( data ) {
+          console.log('Done');
+          console.log(plotName);
+          //$( plotName ).html( data );
+          $('#scatter').html(data);
+        });
+      });
+    });
+    </script>
+
+  </head>
+
+  <body>
+
+
+    <div class="container">
+      <div id='scatter'></div>
+      {% for k,v in groups.items %}
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse{{ forloop.counter }}">{{ k }}</a>
+              </h4>
+            </div>
+            <div id="collapse{{ forloop.counter }}" class="panel-collapse collapse">
+              <div class="panel-body">
+                <table class='table'>
+                  <thead>
+                    <tr>
+                      <th>Opis</th>
+                      <th>delovni čas</th>
+                      <th>SKPvsESCO</th>
+                      <th>Available positions</th>
+                      <th>Skill appropriateness</th>
+                      <th>Job contract type</th>
+                      <th>Job working hours</th>
+                      <th>MSO</th>
+                      <th>Career advance</th>
+                      <th>SKP Evaluation</th>
+                      <th>Eval_min</th>
+                      <th>Eval_max</th>
+                    </tr>
+                  </thead>
+                  {% with g_id=forloop.counter %}
+                  {% for index, row in v.iterrows %}
+                    <tr>
+                      <td> {{ row.SKP_poklic }}</td>
+                      <td>
+                      {{ row.delovni_čas }}
+                      </td>
+                      <td>
+                      {{ row.SKPvsESCO }}
+                      </td>
+                      <td>
+                      {{ row.Available_positions }}
+                      </td>
+                      <td>
+                      {{ row.Skill_appropriateness }}
+                      </td>
+                      <td>
+                      {{ row.Job_contract_type }}
+                      </td>
+                      <td>
+                      {{ row.Job_working_hours }}
+                      </td>
+                      <td>
+                      {{ row.MSO }}
+                      </td>
+                      <td>
+                      {{ row.Career_advance }}
+                      </td>
+                      <td>
+                      {{ row.SKP_Evaluation }}
+                      </td>
+                      <td>
+                      {{ row.Eval_min|floatformat:2 }}
+                      </td>
+                      <td>
+                      {{ row.Eval_max|floatformat:2 }}
+                      </td>
+                      <td>
+                        <button type="button" id="{{ index }}"
+                          name="dex_detail{{ g_id }}"
+                          class="btn btn-link">Details
+                        </button>
+                      <td>
+                    </tr>
+                    <tr>
+                      <td  colspan=13 id="plot_{{ index }}"></td>
+                    <tr>
+                  {% endfor %}
+                  {% endwith %}
+                </table>
+              </div>
+              <div class="panel-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

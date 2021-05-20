@@ -1,0 +1,1158 @@
+<MODEL>
+  <SCALE>
+    <NAME>SKP Evaluation</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>mis match</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>needs competence improvement</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>needs wish adjustments</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>a good match</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Skill appropriateness </NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>inappropriate</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>small chances</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>needs improvements</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>appropriate</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Available positions</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>small</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>medium</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>large</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>SKPvsESCO</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>&gt;10</NAME>
+      <DESCRIPTION>BO needs to gain more than 10 new competences</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>5 - 10</NAME>
+      <DESCRIPTION>BO needs to gain bewtween 5 and 10 new competences</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>&lt; 5 new competences</NAME>
+      <DESCRIPTION>BO needs to gain less than 5 new competences</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Skills</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>many</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>a few</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>none</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Languages</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>no</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>yes</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Personal characteristics</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>mis match</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>needs wish adjustments</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>a good match</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Job appropriateness </NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>inappropriate</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>appropriate</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Contract type</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>ne</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>da</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>BO wishes for contract type</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>part time</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>not important</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>full time</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Job contract type</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>part time</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>full time</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Work type</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>1</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>2</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>3</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>BO career wishes</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>downgrade</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>same</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>upgrade career</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Job career advancement</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>down</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>same</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>up</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>BO working hours wishes</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>daily shift</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>daily/night shift</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>MSO</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>&gt; 20 km</NAME>
+      <DESCRIPTION>above 2 km</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>10 - 20 km</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>&lt; 10 km</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <ATTRIBUTE>
+    <NAME>SKP Evaluation</NAME>
+    <DESCRIPTION>How well a future job fits an employee&apos;s wishes and characteristics?</DESCRIPTION>
+    <SCALE>SKP Evaluation</SCALE>
+    <FUNCTION>SKP Evaluation</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Skill appropriateness </NAME>
+    <DESCRIPTION>How many skills the unemployeed person needs to fulfil? </DESCRIPTION>
+    <PARENT>SKP Evaluation</PARENT>
+    <SCALE>Skill appropriateness </SCALE>
+    <FUNCTION>Skill appropriateness </FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Available positions</NAME>
+    <DESCRIPTION>What is the estimated number of available positions in compariosn with the estimated number of competitors (other unemployeed persons)?</DESCRIPTION>
+    <PARENT>Skill appropriateness </PARENT>
+    <SCALE>Available positions</SCALE>
+    <FUNCTION>Available positions</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>SKPvsESCO</NAME>
+    <DESCRIPTION>Number of skills that needs to be learned</DESCRIPTION>
+    <PARENT>Skill appropriateness </PARENT>
+    <SCALE>SKPvsESCO</SCALE>
+    <FUNCTION>SKPvsESCO</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Skills</NAME>
+    <PARENT>Skill appropriateness </PARENT>
+    <SCALE>Skills</SCALE>
+    <FUNCTION>Skills</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Languages</NAME>
+    <DESCRIPTION>Does the candidate fulfills the languge knowledge requirements</DESCRIPTION>
+    <PARENT>Skills</PARENT>
+    <SCALE>Languages</SCALE>
+    <FUNCTION>Languages</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Driving licence</NAME>
+    <DESCRIPTION>Does the candidate fulfills the drving licence requirements?</DESCRIPTION>
+    <PARENT>Skills</PARENT>
+    <SCALE>Languages</SCALE>
+    <FUNCTION>Driving licence</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Personal characteristics</NAME>
+    <DESCRIPTION>How well a future job matches the unemployeed person characteristics and wishes?</DESCRIPTION>
+    <PARENT>SKP Evaluation</PARENT>
+    <SCALE>Personal characteristics</SCALE>
+    <FUNCTION>Personal characteristics</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Age appropriateness </NAME>
+    <DESCRIPTION>Aggregates data for job requirements and candidate&apos;s age</DESCRIPTION>
+    <PARENT>Personal characteristics</PARENT>
+    <SCALE>Languages</SCALE>
+    <FUNCTION>Age appropriateness </FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Disability appropriateness </NAME>
+    <PARENT>Personal characteristics</PARENT>
+    <SCALE>Languages</SCALE>
+    <FUNCTION>Disability appropriateness </FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>SKP Wish</NAME>
+    <DESCRIPTION>Is this job on the wish list of the jobseecker?</DESCRIPTION>
+    <PARENT>Personal characteristics</PARENT>
+    <SCALE>Languages</SCALE>
+    <FUNCTION>SKP Wish</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Job appropriateness </NAME>
+    <PARENT>SKP Evaluation</PARENT>
+    <SCALE>Job appropriateness </SCALE>
+    <FUNCTION>Job appropriateness </FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Contract type</NAME>
+    <PARENT>Job appropriateness </PARENT>
+    <SCALE>Contract type</SCALE>
+    <FUNCTION>Contract type</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>BO wishes for contract type</NAME>
+    <PARENT>Contract type</PARENT>
+    <SCALE>BO wishes for contract type</SCALE>
+    <FUNCTION>BO wishes for contract type</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Job contract type</NAME>
+    <PARENT>Contract type</PARENT>
+    <SCALE>Job contract type</SCALE>
+    <FUNCTION>Job contract type</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Work type</NAME>
+    <PARENT>Job appropriateness </PARENT>
+    <SCALE>Work type</SCALE>
+    <FUNCTION>Work type</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Career advance</NAME>
+    <PARENT>Work type</PARENT>
+    <SCALE>Work type</SCALE>
+    <FUNCTION>Career advance</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>BO career wishes</NAME>
+    <DESCRIPTION>If the BO wishes to have a career advancement or stay on the same level or worse because of other issues (age, health...)</DESCRIPTION>
+    <PARENT>Career advance</PARENT>
+    <SCALE>BO career wishes</SCALE>
+    <FUNCTION>BO career wishes</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Job career advancement</NAME>
+    <DESCRIPTION>what kind of carear advancement does the job offers</DESCRIPTION>
+    <PARENT>Career advance</PARENT>
+    <SCALE>Job career advancement</SCALE>
+    <FUNCTION>Job career advancement</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Working hours</NAME>
+    <PARENT>Work type</PARENT>
+    <SCALE>Contract type</SCALE>
+    <FUNCTION>Working hours</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>BO working hours wishes</NAME>
+    <DESCRIPTION>Limitations regarding the working hours of the BO</DESCRIPTION>
+    <PARENT>Working hours</PARENT>
+    <SCALE>BO working hours wishes</SCALE>
+    <FUNCTION>BO working hours wishes</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Job working hours</NAME>
+    <PARENT>Working hours</PARENT>
+    <SCALE>BO working hours wishes</SCALE>
+    <FUNCTION>Job working hours</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Location</NAME>
+    <PARENT>Job appropriateness </PARENT>
+    <SCALE>Work type</SCALE>
+    <FUNCTION>Location</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>MSO</NAME>
+    <DESCRIPTION>How far is the working position?</DESCRIPTION>
+    <PARENT>Location</PARENT>
+    <SCALE>MSO</SCALE>
+    <FUNCTION>MSO</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>BO wish location</NAME>
+    <DESCRIPTION>Preferences of the unemployeed person regarding traveling. Does BO wishes to travel?</DESCRIPTION>
+    <PARENT>Location</PARENT>
+    <SCALE>Languages</SCALE>
+    <FUNCTION>BO wish location</FUNCTION>
+  </ATTRIBUTE>
+  <FUNCTION>
+    <NAME>SKP Evaluation</NAME>
+    <ATTRLIST>Skill appropriateness ;Personal characteristics;Job appropriateness </ATTRLIST>
+    <RULE>
+      <CONDITION>inappropriate;mis match;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>inappropriate;mis match;appropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>inappropriate;needs wish adjustments;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>inappropriate;needs wish adjustments;appropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>inappropriate;a good match;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>inappropriate;a good match;appropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small chances;mis match;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small chances;mis match;appropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small chances;needs wish adjustments;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small chances;needs wish adjustments;appropriate</CONDITION>
+      <RESULT>needs competence improvement</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small chances;a good match;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small chances;a good match;appropriate</CONDITION>
+      <RESULT>needs wish adjustments</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>needs improvements;mis match;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>needs improvements;mis match;appropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>needs improvements;needs wish adjustments;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>needs improvements;needs wish adjustments;appropriate</CONDITION>
+      <RESULT>needs competence improvement</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>needs improvements;a good match;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>needs improvements;a good match;appropriate</CONDITION>
+      <RESULT>needs wish adjustments</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>appropriate;mis match;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>appropriate;mis match;appropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>appropriate;needs wish adjustments;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>appropriate;needs wish adjustments;appropriate</CONDITION>
+      <RESULT>needs wish adjustments</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>appropriate;a good match;inappropriate</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>appropriate;a good match;appropriate</CONDITION>
+      <RESULT>a good match</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Skill appropriateness </NAME>
+    <ATTRLIST>Available positions;SKPvsESCO;Skills</ATTRLIST>
+    <RULE>
+      <CONDITION>small;&gt;10;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small;&gt;10;a few</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small;&gt;10;none</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small;5 - 10;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small;5 - 10;a few</CONDITION>
+      <RESULT>small chances</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small;5 - 10;none</CONDITION>
+      <RESULT>small chances</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small;&lt; 5 new competences;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small;&lt; 5 new competences;a few</CONDITION>
+      <RESULT>small chances</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>small;&lt; 5 new competences;none</CONDITION>
+      <RESULT>small chances</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;&gt;10;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;&gt;10;a few</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;&gt;10;none</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;5 - 10;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;5 - 10;a few</CONDITION>
+      <RESULT>needs improvements</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;5 - 10;none</CONDITION>
+      <RESULT>needs improvements</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;&lt; 5 new competences;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;&lt; 5 new competences;a few</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>medium;&lt; 5 new competences;none</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;&gt;10;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;&gt;10;a few</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;&gt;10;none</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;5 - 10;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;5 - 10;a few</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;5 - 10;none</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;&lt; 5 new competences;many</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;&lt; 5 new competences;a few</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>large;&lt; 5 new competences;none</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Skills</NAME>
+    <ATTRLIST>Languages;Driving licence</ATTRLIST>
+    <RULE>
+      <CONDITION>no;no</CONDITION>
+      <RESULT>many</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>no;yes</CONDITION>
+      <RESULT>a few</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>yes;no</CONDITION>
+      <RESULT>a few</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>yes;yes</CONDITION>
+      <RESULT>none</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Personal characteristics</NAME>
+    <ATTRLIST>Age appropriateness ;Disability appropriateness ;SKP Wish</ATTRLIST>
+    <RULE>
+      <CONDITION>no;no;no</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>no;no;yes</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>no;yes;no</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>no;yes;yes</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>yes;no;no</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>yes;no;yes</CONDITION>
+      <RESULT>mis match</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>yes;yes;no</CONDITION>
+      <RESULT>needs wish adjustments</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>yes;yes;yes</CONDITION>
+      <RESULT>a good match</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Job appropriateness </NAME>
+    <ATTRLIST>Contract type;Work type;Location</ATTRLIST>
+    <RULE>
+      <CONDITION>ne;1;1</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>ne;1;2</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>ne;1;3</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>ne;2;1</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>ne;2;2</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>ne;2;3</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>ne;3;1</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>ne;3;2</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>ne;3;3</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;1;1</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;1;2</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;1;3</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;2;1</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;2;2</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;2;3</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;3;1</CONDITION>
+      <RESULT>inappropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;3;2</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>da;3;3</CONDITION>
+      <RESULT>appropriate</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Contract type</NAME>
+    <ATTRLIST>BO wishes for contract type;Job contract type</ATTRLIST>
+    <RULE>
+      <CONDITION>part time;part time</CONDITION>
+      <RESULT>da</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>part time;full time</CONDITION>
+      <RESULT>da</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>not important;part time</CONDITION>
+      <RESULT>da</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>not important;full time</CONDITION>
+      <RESULT>da</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>full time;part time</CONDITION>
+      <RESULT>ne</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>full time;full time</CONDITION>
+      <RESULT>da</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Work type</NAME>
+    <ATTRLIST>Career advance;Working hours</ATTRLIST>
+    <RULE>
+      <CONDITION>1;ne</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1;da</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;ne</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;da</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;ne</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;da</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Career advance</NAME>
+    <ATTRLIST>BO career wishes;Job career advancement</ATTRLIST>
+    <RULE>
+      <CONDITION>downgrade;down</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>downgrade;same</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>downgrade;up</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>same;down</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>same;same</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>same;up</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>upgrade career;down</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>upgrade career;same</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>upgrade career;up</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Working hours</NAME>
+    <ATTRLIST>BO working hours wishes;Job working hours</ATTRLIST>
+    <RULE>
+      <CONDITION>daily shift;daily shift</CONDITION>
+      <RESULT>da</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>daily shift;daily/night shift</CONDITION>
+      <RESULT>ne</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>daily/night shift;daily shift</CONDITION>
+      <RESULT>da</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>daily/night shift;daily/night shift</CONDITION>
+      <RESULT>da</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Location</NAME>
+    <ATTRLIST>MSO;BO wish location</ATTRLIST>
+    <RULE>
+      <CONDITION>&gt; 20 km;no</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>&gt; 20 km;yes</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>10 - 20 km;no</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>10 - 20 km;yes</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>&lt; 10 km;no</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>&lt; 10 km;yes</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+  </FUNCTION>
+  <OPTION>
+    <NAME>barmen Mons</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Available positions</ATTRIBUTE>
+      <VALUE>small</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>SKPvsESCO</ATTRIBUTE>
+      <VALUE>*</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Languages</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Driving licence</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Age appropriateness </ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Disability appropriateness </ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>SKP Wish</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO wishes for contract type</ATTRIBUTE>
+      <VALUE>not important</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job contract type</ATTRIBUTE>
+      <VALUE>full time</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO career wishes</ATTRIBUTE>
+      <VALUE>same</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job career advancement</ATTRIBUTE>
+      <VALUE>same</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO working hours wishes</ATTRIBUTE>
+      <VALUE>daily/night shift</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job working hours</ATTRIBUTE>
+      <VALUE>daily/night shift</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>MSO</ATTRIBUTE>
+      <VALUE>10 - 20 km</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO wish location</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>barmen Coffee shop</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Available positions</ATTRIBUTE>
+      <VALUE>medium</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>SKPvsESCO</ATTRIBUTE>
+      <VALUE>*</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Languages</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Driving licence</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Age appropriateness </ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Disability appropriateness </ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>SKP Wish</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO wishes for contract type</ATTRIBUTE>
+      <VALUE>not important</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job contract type</ATTRIBUTE>
+      <VALUE>part time</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO career wishes</ATTRIBUTE>
+      <VALUE>same</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job career advancement</ATTRIBUTE>
+      <VALUE>same</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO working hours wishes</ATTRIBUTE>
+      <VALUE>daily/night shift</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job working hours</ATTRIBUTE>
+      <VALUE>daily/night shift</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>MSO</ATTRIBUTE>
+      <VALUE>&lt; 10 km</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO wish location</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>barmen Union</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Available positions</ATTRIBUTE>
+      <VALUE>medium</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>SKPvsESCO</ATTRIBUTE>
+      <VALUE>*</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Languages</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Driving licence</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Age appropriateness </ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Disability appropriateness </ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>SKP Wish</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO wishes for contract type</ATTRIBUTE>
+      <VALUE>not important</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job contract type</ATTRIBUTE>
+      <VALUE>full time</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO career wishes</ATTRIBUTE>
+      <VALUE>same</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job career advancement</ATTRIBUTE>
+      <VALUE>same</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO working hours wishes</ATTRIBUTE>
+      <VALUE>daily/night shift</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job working hours</ATTRIBUTE>
+      <VALUE>daily/night shift</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>MSO</ATTRIBUTE>
+      <VALUE>&lt; 10 km</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO wish location</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>barmen Test</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Available positions</ATTRIBUTE>
+      <VALUE>medium</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>SKPvsESCO</ATTRIBUTE>
+      <VALUE>*</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Languages</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Driving licence</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Age appropriateness </ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Disability appropriateness </ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>SKP Wish</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO wishes for contract type</ATTRIBUTE>
+      <VALUE>*</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job contract type</ATTRIBUTE>
+      <VALUE>*</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO career wishes</ATTRIBUTE>
+      <VALUE>*</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job career advancement</ATTRIBUTE>
+      <VALUE>same</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO working hours wishes</ATTRIBUTE>
+      <VALUE>daily/night shift</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Job working hours</ATTRIBUTE>
+      <VALUE>daily/night shift</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>MSO</ATTRIBUTE>
+      <VALUE>&lt; 10 km</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>BO wish location</ATTRIBUTE>
+      <VALUE>yes</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+</MODEL>
